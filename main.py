@@ -1,7 +1,7 @@
 import random
 
 
-def generate_rand_obj():  # This function returns a random element of tje list.
+def generate_rand_obj():  # This function returns a random element of the list.
     objects = ['ROCK', 'PAPER', 'SCISSORS']
     random_num = random.randint(0, 2)
     return objects[random_num]
